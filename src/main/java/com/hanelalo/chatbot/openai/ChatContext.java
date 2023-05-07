@@ -7,9 +7,12 @@ import lombok.Data;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.UUID;
 
 @Data
 public class ChatContext {
+
+    private final String uuid = UUID.randomUUID().toString().replace("-", "");
 
     private List<ChatMessage> messages = new ArrayList<>();
 

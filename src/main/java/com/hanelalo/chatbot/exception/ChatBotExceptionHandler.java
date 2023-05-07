@@ -1,6 +1,6 @@
 package com.hanelalo.chatbot.exception;
 
-import com.hanelalo.chatbot.domain.Response;
+import com.hanelalo.chatbot.model.dto.Response;
 import com.hanelalo.chatbot.enums.ResponseCodeEnum;
 import org.springframework.validation.BindException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
