@@ -33,7 +33,7 @@ public class SwaggerConfiguration {
      */
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("测试接口文档示例")
+                .title("chatbot接口文档")
                 .description("chatbot接口文档")
                 .version("1.0.0") // 版本号
                 .contact(new Contact("hanelalo", "https://hanelalo.cn", "hanelalo@163.com")) // 联系人
